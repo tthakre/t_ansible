@@ -1,0 +1,18 @@
+webServer1 ansible_host=172.31.34.217 
+webServer2 ansible_host=172.31.40.158 
+dbServer1 ansible_host=172.31.47.3 
+
+[web_grp]
+webServer1
+webServer2
+
+[db_grp]
+dbServer1
+
+[tarun:children]
+web_grp
+db_grp
+
+[tarun:vars]
+ansible_user=centos
+ansible_ssh_private_key_file=ansiblekey.pem
