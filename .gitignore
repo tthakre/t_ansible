@@ -1,0 +1,25 @@
+.Xauthority
+.ansible/
+.bash_logout
+.bashrc
+.cache/
+.local/
+.profile
+.ssh/
+.sudo_as_admin_successful 
+.viminfo
+
+.
+.Xauthority
+.bash_logout  
+.cache  
+.local    
+.ssh    
+ .viminfo
+..
+.ansible
+.bashrc   
+.git  
+.profile  
+.sudo_as_admin_successful  
+
